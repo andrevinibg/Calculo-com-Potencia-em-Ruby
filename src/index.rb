@@ -12,6 +12,8 @@ i = 1
 
 # Limpa o console para uma melhor experiência visual (funciona no Windows)
 system "cls" 
+puts "Bem-vindo à calculadora de potências!"
+puts "-------------------------------------"
 
 # Estrutura de repetição que executa o bloco 3 vezes
 3.times do
@@ -33,5 +35,7 @@ novo_numeros = numeros.map do |x|
 end
 
 # Exibe o resultado final formatado
-puts "\nOs novos números elevados a 3ª potência são: "
+puts "\n-------------------------------------"
+puts "Resultado do cálculo (3ª Potência): "
 puts "#{novo_numeros}"
+puts "-------------------------------------"
